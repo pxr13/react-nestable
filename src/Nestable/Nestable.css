@@ -29,7 +29,7 @@
 }
 .nestable-item.is-dragging * {
   opacity: 0;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=0)';
   filter: alpha(opacity=0);
 }
 .nestable-item.is-dragging:before {
@@ -39,8 +39,6 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: #87ceeb;
-  border: 1px dashed #4682b4;
   -webkit-border-radius: 5px;
   border-radius: 5px;
 }
