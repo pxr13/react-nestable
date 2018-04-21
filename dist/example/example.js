@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "c1ff6f1b061f6dd00b2d"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "dafe6abfb547a54bb3e2"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -5263,7 +5263,7 @@
 	
 	
 	// module
-	exports.push([module.id, ".nestable {\n  position: relative;\n}\n.nestable .nestable-list {\n  margin: 0;\n  padding: 0 0 0 40px;\n  list-style-type: none;\n}\n.nestable > .nestable-list {\n  padding: 0;\n}\n.nestable-item,\n.nestable-item-copy {\n  margin: 10px 0 0;\n}\n.nestable-item:first-child,\n.nestable-item-copy:first-child {\n  margin-top: 0;\n}\n.nestable-item .nestable-list,\n.nestable-item-copy .nestable-list {\n  margin-top: 10px;\n}\n.nestable-item {\n  position: relative;\n}\n.nestable-item.is-dragging .nestable-list {\n  pointer-events: none;\n}\n.nestable-item.is-dragging * {\n  opacity: 0;\n  -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=0)';\n  filter: alpha(opacity=0);\n}\n.nestable-item.is-dragging:before {\n  content: ' ';\n  position: absolute;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  border-radius: 5px;\n}\n.nestable-item-icon {\n  margin-right: 5px;\n  cursor: pointer;\n}\n.nestable-drag-layer {\n  position: fixed;\n  top: 0;\n  left: 0;\n  z-index: 100;\n  pointer-events: none;\n}\n.nestable-drag-layer > .nestable-list {\n  position: absolute;\n  top: 0;\n  left: 0;\n  padding: 0;\n}\n", ""]);
+	exports.push([module.id, ".nestable {\n  position: relative;\n}\n.nestable .nestable-list {\n  margin: 0;\n  padding: 0 0 0 40px;\n  list-style-type: none;\n}\n.nestable > .nestable-list {\n  padding: 0;\n}\n.nestable-item,\n.nestable-item-copy {\n  margin: 10px 0 0;\n}\n.nestable-item:first-child,\n.nestable-item-copy:first-child {\n  margin-top: 0;\n}\n.nestable-item .nestable-list,\n.nestable-item-copy .nestable-list {\n  margin-top: 10px;\n}\n.nestable-item {\n  position: relative;\n}\n.nestable-item.is-dragging .nestable-list {\n  pointer-events: none;\n}\n.nestable-item.is-dragging * {\n  opacity: 0;\n  -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=0)';\n  filter: alpha(opacity=0);\n}\n.nestable-item.is-dragging:before {\n  content: ' ';\n  position: absolute;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background: #87ceeb;\n  border: 1px dashed #4682b4;\n  border-radius: 5px;\n}\n.nestable-item-icon {\n  margin-right: 5px;\n  cursor: pointer;\n}\n.nestable-drag-layer {\n  position: fixed;\n  top: 0;\n  left: 0;\n  z-index: 100;\n  pointer-events: none;\n}\n.nestable-drag-layer > .nestable-list {\n  position: absolute;\n  top: 0;\n  left: 0;\n  padding: 0;\n}\n", ""]);
 	
 	// exports
 
